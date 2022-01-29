@@ -1,0 +1,31 @@
+article{
+    /*text-align: left;*/
+    background-color: lightgray;
+    width: 50vw;
+    margin-bottom: 10px;
+
+}
+
+article header{
+   display: flex;
+   background-color: cadetblue;
+   justify-content: space-between;
+   padding-left: 10px;
+}
+
+section{
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: larger;
+}
+
+button{
+    cursor: pointer;
+}
+button, header, article {
+    border-radius: 5px;
+}
+button:hover{
+    filter: brightness(0.8);
+}
